@@ -2,6 +2,7 @@ require "sinatra"
 require "sinatra/reloader" if development?
 require "pry-byebug"
 require "better_errors"
+require "sinatra/json"
 
 configure :development do
   use BetterErrors::Middleware
